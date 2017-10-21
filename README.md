@@ -63,3 +63,10 @@ The goal is to complete 20pts worth of Katas with any combination of Katas.
 - **Module**: `multiples_of_3_and_5.py`
 - **Tests**: `multiples_of_3_and_5_test.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/multiples-of-3-and-5/python)
+
+**Sum of the first nth Term of a Series (7th kyu)**
+
+- **Module**: `sum_of_nth_terms.py`
+- **Tests**: `sum_of_nth_terms_test.py`
+- **URL**: [challenge url](http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/python)
+
