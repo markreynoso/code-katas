@@ -14,6 +14,6 @@ def series_sum(n):
     inc = -2
     for i in range(n):
         inc = inc + 3
-        output = output + (1/inc)
+        output = output + (float(1)/inc)
         print(output)
     return '%.2f' % output
