@@ -14,3 +14,26 @@ Each Kyu is ranked as follows:
 - 1st kyu: 10
 The goal is to complete 20pts worth of Katas with any combination of Katas. 
 
+# Completed Katas:
+
+**Exclamation Marks Series #6 (8th kyu)**
+
+- **Module**: `exclamation_marks_series_6.py`
+- **Tests**: `test_exclamation_marks_series_6.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/exclamation-marks-series-number-6-remove-n-exclamation-marks-in-the-sentence-from-left-to-right/python)
+
+**What's The Real Floor (8th kyu)**
+
+- **Module**: `whats_the_real_floor.py`
+- **Tests**: `test_whats_the_real_floor.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/whats-the-real-floor/python)
+
+**Sum of Two Lowest Possible Integers (7th kyu)**
+
+- **Module**: `sum_of_two_lowest_possible_integers.py`
+- **Tests**: `test_sum_of_two_lowest_possible_integers.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/python)
+
+
+
+
