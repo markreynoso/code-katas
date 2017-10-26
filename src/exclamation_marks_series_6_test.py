@@ -1,6 +1,6 @@
-"""this file tests the code wars kata: Exclamation marks series #6."""
-
+"""This file tests the code wars kata: Exclamation marks series #6."""
 import pytest
+
 
 tests = [
     ["Hi!", 1, "Hi"],
@@ -20,9 +20,9 @@ tests = [
     ["!!!Hi!!!!!!!!", 8, "Hi!!!"],
 ]
 
+
 @pytest.mark.parametrize('s, n, result', tests)
 def test_remove(s, n, result):
-    """this tests whether remove() will remove n number of
-        exclamation marks from s"""
+    """Remove n number of exclamation marks from s."""
     from exclamation_marks_series_6 import remove
     assert remove(s, n) == result

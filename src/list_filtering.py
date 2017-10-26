@@ -8,7 +8,8 @@ def filter_list(l):
   return [i for i in l if not isinstance(i, str)]
 """
 
+
 def filter_list(l):
-    """removes all values from list which are not integers"""
+    """Remove all values from list which are not integers."""
     new_l = list(filter(lambda x: type(x) == int, l))
     return new_l

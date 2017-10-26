@@ -1,6 +1,6 @@
-"""this file tests the code wars kata: Changing Letters."""
-
+"""This file tests the code wars kata: Changing Letters."""
 import pytest
+
 
 tests = [
     ("Basic Tests", "BAsIc TEsts"),
@@ -12,9 +12,9 @@ tests = [
     ("aeiou", "AEIOU")
 ]
 
+
 @pytest.mark.parametrize('words, result', tests)
 def test_pig_it(words, result):
-    """this tests whether swap() returns a string with every
-    vowel capitalized."""
+    """Test if swap() returns string with every vowel cap."""
     from changing_letters import swap
     assert swap(words) == result

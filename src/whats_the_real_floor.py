@@ -8,8 +8,9 @@ def get_real_floor(n):
     if n > 13: return n-2
 """
 
+
 def get_real_floor(n):
-    """returns the actual level of an americanized floor label"""
+    """Actual level of an americanized floor label."""
     if n <= 0:
         return n
     elif n > 0 and n < 13:
