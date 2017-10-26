@@ -1,17 +1,19 @@
 """Kata: Simple Pig Latin.
 
-#1 Best Practices Solution by dykchui, alpharam, pomps, enfrightened, Wild_Pointer
+#1 Best Practices Solution by dykchui, alpharam,
+pomps, enfrightened, Wild_Pointer
 
 def pig_it(text):
     lst = text.split()
-    return ' '.join( [word[1:] + word[:1] + 'ay' if word.isalpha() else word for word in lst])
+    return ' '.join( [word[1:] + word[:1] + 'ay' if
+    word.isalpha() else word for word in lst])
 """
 
+
 def pig_it(text):
-    """moves first letter of word to end of word and adds
-        'ay' to it"""
+    """Move 1st letter of word to end, add 'ay' to it."""
     text_l = text.split()
-    output = []    
+    output = []
     pyg = 'ay'
     for word in text_l:
         if word.isalpha():

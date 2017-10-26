@@ -7,8 +7,9 @@ def swap(st):
     return "".join( c.upper() if c in "aeiou" else c for c in st )
 """
 
+
 def swap(st):
-    """changes all vowels to uppercase"""
+    """Change all vowels to uppercase."""
     st_list = list(st)
     vowels = 'aeiou'
     output = []

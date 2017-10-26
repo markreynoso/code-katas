@@ -1,6 +1,6 @@
-"""this file tests the code wars kata: List Filtering."""
-
+"""Test the code wars kata: List Filtering."""
 import pytest
+
 
 tests = [
     ('Pig latin is cool', 'igPay atinlay siay oolcay'),
@@ -11,9 +11,9 @@ tests = [
     ('all the words', 'llaay hetay ordsway')
 ]
 
+
 @pytest.mark.parametrize('words, result', tests)
 def test_pig_it(words, result):
-    """this tests whether pig_it() returns a string where every
-        first letter is moved to the end of the word and 'ay' is added."""
+    """Move 1st letter to end and 'ay' is added."""
     from simple_pig_latin import pig_it
     assert pig_it(words) == result

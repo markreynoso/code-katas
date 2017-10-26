@@ -9,9 +9,10 @@ def find_it(seq):
             return i
 """
 
+
 def find_it(seq):
-    """returns the integer which occurs an odd numbers of times in list"""
+    """Return integer which occurs an odd numbers of times in list."""
     for item in seq:
         total = seq.count(item)
         if total % 2 == 1:
-          return item
+            return item

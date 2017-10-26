@@ -1,6 +1,6 @@
-"""this file tests the code wars kata: Sum of Two Lowest Possible Integers."""
-
+"""Test the code wars kata: Sum of Two Lowest Possible Integers."""
 import pytest
+
 
 tests = [
     ([5, 8, 12, 18, 22], 13),
@@ -12,9 +12,9 @@ tests = [
     ([432, 4534352, 543265, 456424, 2], 434)
 ]
 
+
 @pytest.mark.parametrize('numbers, result', tests)
 def test_remove(numbers, result):
-    """this tests whether sum_of_two_lowest_possible_integers() returns the sum
-        of the two lowest integers of any given list"""
+    """Sum of the two lowest integers of any given list."""
     from sum_of_two_lowest_possible_integers import sum_two_smallest_numbers
     assert sum_two_smallest_numbers(numbers) == result
