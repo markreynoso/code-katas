@@ -64,8 +64,15 @@ The goal is to complete 20pts worth of Katas with any combination of Katas.
 - **Tests**: `multiples_of_3_and_5_test.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/multiples-of-3-and-5/python)
 
+**Sum of the first nth Term of a Series (7th kyu)**
+
+- **Module**: `sum_of_nth_terms.py`
+- **Tests**: `sum_of_nth_terms_test.py`
+- **URL**: [challenge url](http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/python)
+
 # Flight Paths
 
 Using data found here [url](https://codefellows.github.io/sea-python-401d6/_downloads/cities_with_airports.json) and a method for calculating distance between two points using latitude and longitude, found here [url](https://codefellows.github.io/sea-python-401d6/assignments/kata_flight_paths.html), I implemented a method to calculate the shortest path and route cities to travel in order to travel between two given cities. Drawing from the Dijkstra algorithm, find_the_path_between_cities() will make a request to the supplied json data and sort through all paths from a given city until it finds the destination city or finds no route at all. It will keep track of which path will produce the shortest path and return both a list of the cities traveled and the distance from beginning to end. 
 
 - **find_the_path_between_cities(city1, city2)** - O(n**2)
+
