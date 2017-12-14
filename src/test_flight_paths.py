@@ -27,4 +27,4 @@ def test_flight_path_returns_correct_path_and_distance():
                 Khartoum: 78
             Aswan:
         Dubai: 394
-
+        Kartoum: 78

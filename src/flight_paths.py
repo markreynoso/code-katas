@@ -32,7 +32,7 @@ def check_data():
     count = 0
     for city in data:
         count += 1
-        if city['city'] == 'Khartoum':
+        if city['city'] == 'Nairobi':
             print(city)
             return count
 
