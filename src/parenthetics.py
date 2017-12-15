@@ -11,23 +11,20 @@ def proper_parenthetics(string):
         char_list.push(letter)
     count = 0
     total = 0
-    broken = False
     current = char_list.head
     while current:
         if current.data == '(':
             count -= 1
             total += 1
             if count < 0:
-                broken = True
+                return -1
         elif current.data == ')':
             count += 1
             total += 1
         current = current.next
     if total == 0:
         return 'There are no parenthesis in this string.'
-    elif total % 2 > 0:
+    elif count > 0:
         return 1
-    elif total % 2 == 0 and broken is True:
-        return -1
     else:
         return 0

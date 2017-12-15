@@ -68,4 +68,14 @@ The goal is to complete 20pts worth of Katas with any combination of Katas.
 
 Using data found here [url](https://codefellows.github.io/sea-python-401d6/_downloads/cities_with_airports.json) and a method for calculating distance between two points using latitude and longitude, found here [url](https://codefellows.github.io/sea-python-401d6/assignments/kata_flight_paths.html), I implemented a method to calculate the shortest path and route cities to travel in order to travel between two given cities. Drawing from the Dijkstra algorithm, find_the_path_between_cities() will make a request to the supplied json data and sort through all paths from a given city until it finds the destination city or finds no route at all. It will keep track of which path will produce the shortest path and return both a list of the cities traveled and the distance from beginning to end. 
 
-- **find_the_path_between_cities(city1, city2)** - O(n**2)
+- **find_the_path_between_cities(city1, city2)** O(n**2)
+
+# Proper Parenthetics
+
+proper_parenthetics(string) takes a unicode string and uses a linked list traversal to determine the makeup of parenthesis within the string based on the following criteria:
+
+- Return 1 if the string is “open” (there are open parens that are not closed)
+- Return 0 if the string is “balanced” (there are an equal number of open and closed parentheses in the string)
+- Return -1 if the string is “broken” (a closing parens has not been proceeded by one that opens)
+
+- **proper_parenthetics(string)** O(n)

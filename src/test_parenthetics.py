@@ -43,9 +43,14 @@ def test_proper_parens_broken_with_letters():
 
 def test_proper_parens_unclosed_with_letters():
     """Test proper parens when unclosed has letters."""
-    assert proper_parenthetics('(bala(n)c)(ed()') == 1
+    assert proper_parenthetics('(bala(n)c)(ed()') == -1
 
 
 def test_proper_parens_all_left_parens():
     """Test proper parens if all parens are left."""
-    assert proper_parenthetics('((((((') == 1
+    assert proper_parenthetics('((((((') == -1
+
+
+def test_proper_parens_all_right_parens():
+    """Test proper aprens if all parens are right."""
+    assert proper_parenthetics('))))))') == 1
